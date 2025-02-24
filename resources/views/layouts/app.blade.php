@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Name - @yield('title')</title>
+    <title>X Restaurant- @yield('title')</title>
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gray-50">
@@ -12,7 +12,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <a href="{{ route('home') }}" class="flex items-center">
-                        <span class="text-xl font-bold">Restaurant Name</span>
+                        <span class="text-xl font-bold">X Restaurant</span>
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
