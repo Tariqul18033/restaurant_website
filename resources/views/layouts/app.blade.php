@@ -19,7 +19,9 @@
                     <a href="{{ route('home') }}" class="text-gray-700 hover:text-gray-900">Home</a>
                     <a href="{{ route('menu') }}" class="text-gray-700 hover:text-gray-900">Menu</a>
                     <a href="{{ route('reservations.create') }}" class="text-gray-700 hover:text-gray-900">Reservations</a>
-                    <a href="{{ route('contact') }}" class="text-gray-700 hover:text-gray-900">Contact</a>
+                    <a href="{{ route('reservations.create') }}" class="text-gray-700 hover:text-gray-900">Talkeout</a>
+                    
+                    <a href="{{ route('contact') }}" class="text-gray-700 hover:text-gray-900">Login</a>
                 </div>
             </div>
         </div>
